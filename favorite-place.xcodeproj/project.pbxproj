@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A624579D1C778A73003536E8 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A624579C1C778A73003536E8 /* DetailVC.swift */; };
+		A624579F1C779EFB003536E8 /* PointlessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A624579E1C779EFB003536E8 /* PointlessVC.swift */; };
 		A6CC5A3A1C778313005DAE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC5A391C778313005DAE55 /* AppDelegate.swift */; };
 		A6CC5A3C1C778313005DAE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC5A3B1C778313005DAE55 /* ViewController.swift */; };
 		A6CC5A3F1C778313005DAE55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CC5A3D1C778313005DAE55 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A624579C1C778A73003536E8 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		A624579E1C779EFB003536E8 /* PointlessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointlessVC.swift; sourceTree = "<group>"; };
 		A6CC5A361C778313005DAE55 /* favorite-place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "favorite-place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CC5A391C778313005DAE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6CC5A3B1C778313005DAE55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +83,9 @@
 			children = (
 				A6CC5A391C778313005DAE55 /* AppDelegate.swift */,
 				A6CC5A3B1C778313005DAE55 /* ViewController.swift */,
+				A624579C1C778A73003536E8 /* DetailVC.swift */,
 				A6CC5A3D1C778313005DAE55 /* Main.storyboard */,
+				A624579E1C779EFB003536E8 /* PointlessVC.swift */,
 				A6CC5A401C778313005DAE55 /* Assets.xcassets */,
 				A6CC5A421C778313005DAE55 /* LaunchScreen.storyboard */,
 				A6CC5A451C778313005DAE55 /* Info.plist */,
@@ -201,6 +207,8 @@
 			files = (
 				A6CC5A3C1C778313005DAE55 /* ViewController.swift in Sources */,
 				A6CC5A3A1C778313005DAE55 /* AppDelegate.swift in Sources */,
+				A624579F1C779EFB003536E8 /* PointlessVC.swift in Sources */,
+				A624579D1C778A73003536E8 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +398,7 @@
 				A6CC5A551C778313005DAE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6CC5A561C778313005DAE55 /* Build configuration list for PBXNativeTarget "favorite-placeTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +407,7 @@
 				A6CC5A581C778313005DAE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
